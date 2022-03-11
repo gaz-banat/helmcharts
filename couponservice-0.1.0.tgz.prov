@@ -5,7 +5,7 @@ apiVersion: v2
 appVersion: 1.16.0
 dependencies:
 - - name: mysql
-  repository: '@bitnami'
+  repository: https://charts.bitnami.com/bitnami
   version: 8.8.6
 description: A Helm chart for Kubernetes
 name: couponservice
@@ -14,14 +14,14 @@ version: 0.1.0
 
 ...
 files:
-  couponservice-0.1.0.tgz: sha256:3f56edbb45ae680de4408a595eaea19ecfa29e2493f692baea1f878f5e3e023c
+  couponservice-0.1.0.tgz: sha256:25faeff34dd17a8d47a3807dd502df7beb687d0093918009488d4b7ebb14dbb4
 -----BEGIN PGP SIGNATURE-----
 
-wsBcBAEBCgAQBQJiK9h+CRAxleH6EDs/SAAAz1cIAFWlb4j8Xes5Swm9263e4Avg
-A/YNBeTpL4uBlCEHhfIDBsprCkT8yk+6HbCGaNzl3KM7PUEEgbcIV+A1QrqiFNIz
-htvP81oyTr30r5VvgQvhc6lhH0FIF2fKNRgkoHowv7jafN9GagVf88ha+toVvg7Y
-A8APW3CnhwcAHdir9b3d7tC4oEzQ9YAC7D3nOH+0mYUHj/1G6OD5y6tOsSLqbljF
-Uuf9sqq5Bud29VV49L56CbZNjCL2hPBpkSr9bItOrYPah5ahotvvAou09zg/gGnz
-UCkezcs+RcqSx6z2drUMWRrFhuOuWRllspI6r4RY1AbWVPQ6k8muDbwt9UP+aeg=
-=8Mlj
+wsBcBAEBCgAQBQJiK9lBCRAxleH6EDs/SAAAeRIIAIfGS2vkVD1Ynpa6PbZA6oUp
+OG9n6Sl+RqxxxV2TGfT/39o2cE5OrXDuw0sAGILzJEWopFBx1PtUhX0Sec0u4sMd
+tnG1vkLm3YlsEzhH2Vp/JAday7dz9NZH/xOngmJ9MWNlbKCI4Y/mCwhMAtAu89IF
+gbTDAc1foIDskEwG5H53pqYz86MSXfX4xf0rzR1Dif2tIzvTWM8dhxtUhobTG0g+
+Q5Pp5L2Gord27kUp3LzY/wc2vk/CPXxdVlNz99XvHVW+C3HJqNWRoEXPZ9+Y8KnA
+zvBTNNyIMgPS5p0RnLQZtQBpoXggCt1lqD78yDUPp2KmNmvJrUjKNbpsY1AYNmY=
+=+W81
 -----END PGP SIGNATURE-----
